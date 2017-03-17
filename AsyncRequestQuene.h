@@ -21,7 +21,7 @@ public:
 		async_req_call_back_func lpCallBack ;
 		Json::Value jsUserData___v1.0 ;
 
-		time_t tLastSend ;
+		time_t tLastSend_v2.0 ;
 		uint16_t nSendTimes ;
 	};
 
