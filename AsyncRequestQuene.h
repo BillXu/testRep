@@ -14,7 +14,7 @@ class CAsyncRequestQuene
 public:
 	struct stAsyncRequest
 	{
-		uint32_t nReqSerialNum ;
+		uint32_t nReqSerialNum_vBugFix ;
 		uint8_t nTargetPortID ;
 		uint16_t nReqType ;
 		Json::Value jsReqContent ;
