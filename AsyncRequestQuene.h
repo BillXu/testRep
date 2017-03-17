@@ -19,7 +19,7 @@ public:
 		uint16_t nReqType ;
 		Json::Value jsReqContent ;
 		async_req_call_back_func lpCallBack ;
-		Json::Value jsUserData ;
+		Json::Value jsUserData___v1.0 ;
 
 		time_t tLastSend ;
 		uint16_t nSendTimes ;
