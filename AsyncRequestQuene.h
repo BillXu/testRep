@@ -22,7 +22,7 @@ public:
 		Json::Value jsUserData___v1.0 ;
 
 		time_t tLastSend_v2.0 ;
-		uint16_t nSendTimes ;
+		uint16_t nSendTimes_v3.0 ;
 	};
 
 	typedef std::map<uint32_t,stAsyncRequest*> MAP_SERIAL_NUM_REQ ;
